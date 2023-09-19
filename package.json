@@ -1,0 +1,33 @@
+{
+  "name": "pdf_viewer",
+  "version": "1.0.0",
+  "description": "pdf-dist static file",
+  "author": "husirb",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  "keywords": [
+    "pdf",
+    "pdfViewer",
+    "pdf-dist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/husirb/pdfViewer.git"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "gulp": "^4.0.2",
+    "terser": "^5.19.4"
+  }
+}
